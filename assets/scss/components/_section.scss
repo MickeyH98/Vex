@@ -1,0 +1,91 @@
+.section {
+
+}
+
+.section--hero {
+
+  .section {
+
+    &__title {
+      color: #3B4045;
+      font-size: 60px;
+      line-height: 72px;
+      margin-bottom: 13px;
+      font-weight: normal;
+      margin-top: 0;
+    }
+
+    &__text {
+      color: #3B4045;
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 29px;
+    }
+
+    &__image {
+      width: 227px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    &__button {
+
+    }
+
+  }
+
+}
+
+.section--core-features {
+  padding-top: 186px;
+  padding-bottom: 92px;
+
+  .section {
+
+    &__title {
+      text-align: center;
+      color: black;
+      font-size: 40px;
+      line-height: 48px;
+      margin-bottom: 62px;
+      font-weight: normal;
+    }
+
+    &__image {
+      margin: 0 auto;
+      display: block;
+      width: 240px;
+    }
+
+  }
+
+}
+
+.section--designed {
+  background-color: #FDA920;
+  padding: 94px 0;
+
+  .section {
+
+    &__image {
+      width: 226px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    &__title {
+      color: white;
+      font-size: 40px;
+      line-height: 48px;
+      font-weight: normal;
+    }
+
+    &__text {
+      color: white;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+  }
+
+}
